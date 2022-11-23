@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color:  rgb(30, 34, 37);
+}
+
+div {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 9em;
+    margin-top: .5em;
+}
+
+
+.glijder{
+    margin-top: .25em;
+    margin-bottom: 1em;
+    display: flex;
+}
+
+.glijder::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button {
+    padding: .75em;
+    color: white;
+    background-color: #536DFE;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 4px 2px -2px rgb(0 0 0 / 30%);
+}
+
+button:nth-of-type(2) {
+    background-color: red;
+}
+
+.fa-clock{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    top: 475px;
+    left: 70px;
+}
+
+.fa-wave-square{
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    top: 525px;
+    left: 70px;
+}
+
+.red{
+    position: absolute;
+    color: red;
+    font-size: 1.5rem;
+    top: 580px;
+    left: 75px;
+}
+
+.green {
+    position: absolute;
+    color: green;
+    font-size: 1.5rem;
+    top: 630px;
+    left: 75px;
+}
+
+.blue {
+    position: absolute;
+    color: blue;
+    font-size: 1.5rem;
+    top: 685px;
+    left: 75px;
+}
